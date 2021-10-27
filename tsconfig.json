@@ -1,0 +1,51 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "types": [
+            "node",
+            "@wdio/sync",
+            "mocha",
+            "chai",
+            "@wdio/devtools-service",
+            "@wdio/mocha-framework"
+        ],
+        "baseUrl": "src",
+        "paths": {
+            "@api/*": [
+                "api/*"
+            ],
+            "@config/*": [
+                "config/*"
+            ],
+            "@selectors/*": [
+                "selectors/*"
+            ],
+            "@model/*": [
+                "model/*"
+            ],
+            "@pages/*": [
+                "pages/*"
+            ],
+            "@data/*": [
+                "data/*"
+            ],
+            "@helpers/*": [
+                "helpers/*"
+            ],
+            "@enum/*": [
+                "enum/*"
+            ],
+            "@service/*": [
+                "service/*"
+            ],
+            "@utils/*": [
+                "utils/*"
+            ]
+        }
+    },
+    "include": [
+        "./**/*.ts"
+    ]
+}
