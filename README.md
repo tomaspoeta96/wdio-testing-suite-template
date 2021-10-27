@@ -1,0 +1,1 @@
+# wdio-testing-suite-template
