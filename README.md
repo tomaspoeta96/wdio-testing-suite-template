@@ -1,7 +1,5 @@
 # Testing Suite
 
-Welcome to the Kapture Automation Testing Suite, this project is built using WebdriverIO framework. 
-
 ## Quick start
 
 In order to start using it clone the repo and execute the following command on your command line:
